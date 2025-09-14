@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peminjaman Ruangan ITERA</title>
+</head>
+<body>
+  <header>
+    <img src="logo-itera.png" alt="Logo ITERA" width="70">
+    <h1>Formulir Peminjaman Ruangan</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="peminjaman.html">Peminjaman</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+    <h2>Form Peminjaman Ruangan</h2>
+      <form action="#" method="post">
+        <label for="nama">Nama Peminjam:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="nim">NIM / NIP:</label><br>
+        <input type="text" id="nim" name="nim" required><br><br>
+
+        <label for="ruangan">Ruangan:</label><br>
+        <select id="ruangan" name="ruangan">
+          <option value="Aula">Aula</option>
+          <option value="Ruang Kelas 1">Ruang Kelas 1</option>
+          <option value="Ruang Kelas 2">Ruang Kelas 2</option>
+          <option value="Lab Komputer">Lab Komputer</option>
+        </select><br><br>
+
+        <label for="tanggal">Tanggal Peminjaman:</label><br>
+        <input type="date" id="tanggal" name="tanggal" required><br><br>
+
+        <label for="waktu">Waktu:</label><br>
+        <input type="time" id="waktu" name="waktu" required><br><br>
+
+        <button type="submit">Ajukan Peminjaman</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Institut Teknologi Sumatera</p>
+  </footer>
+</body>
+</html>
